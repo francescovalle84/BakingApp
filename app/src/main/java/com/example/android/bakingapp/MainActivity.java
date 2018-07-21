@@ -59,9 +59,9 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         recipeList = new ArrayList<Recipe>();
         mRecipeAdapter = new RecipeAdapter(this, recipeList);
 
-        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
+        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 1);
         mRecyclerView.setLayoutManager(mLayoutManager);
-        mRecyclerView.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
+        //mRecyclerView.addItemDecoration(new GridSpacingItemDecoration(1, dpToPx(10), true));
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         mRecyclerView.setAdapter(mRecipeAdapter);
 

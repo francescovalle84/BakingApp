@@ -62,7 +62,8 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeAdap
         String url = recipe.getImage();
         if (url == null || url.isEmpty()) {
             Picasso.with(mContext)
-                    .load(R.drawable.error_loading)
+                    .load(R.drawable.baking_generic)
+                    .error(R.drawable.error_loading)
                     .into(holder.mRecipeImageImageView);
         } else {
             Picasso.with(mContext)

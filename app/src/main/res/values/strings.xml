@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">BakingApp</string>
     <string name="action_add_to_widget">Add to widget</string>
-    <string name="backdrop_title">Baking App</string>
-    <string name="backdrop_subtitle">Your favourite sweets!</string>
+    <string name="backdrop_title"></string>
+    <string name="backdrop_subtitle"></string>
     <string name="network_error">Connection error: please check your internet connection</string>
 </resources>
